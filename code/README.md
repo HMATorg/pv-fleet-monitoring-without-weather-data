@@ -16,10 +16,10 @@ Python 3.11. Install the packages with `pip install -r requirements.txt`. Random
 | Step | Script | Produces |
 |---|---|---|
 | 1 | `prep.py` | Regular hourly grid, clear-sky and solar position, site statistics |
-| 2 | `eda.py`, `audit.py` | Fig. 1–2, missing-day audit (Table 1), capacity stability, spatial correlation (Fig. 5) |
+| 2 | `eda.py`, `audit.py` | Fig. 1–2, missing-day audit (Table 1), capacity stability, spatial correlation (Fig. 6) |
 | 3 | `forecast.py`, `cliper.py`, `lstm_es.py`, `lstm_seed.py` (SEED=1..4), `metrics.py` | Table 3; 5-seed LSTM |
 | 4 | `fc2.py`, `da_issue.py`, `sp_diag.py` | Skill-vs-horizon curve, ridge baseline, fixed issue-time day-ahead, smart-persistence diagnosis |
 | 5 | `shap_run.py` | Fig. 3 |
-| 6 | `unsup.py`, `regimes.py`, `reg2.py` | Regimes (Fig. 4), silhouette in fingerprint space, dip test, gap statistic, seasonal-null synchrony |
-| 7 | `anomaly3.py` (env: R, LOO, ZX, KMIN, EPS, DAMP, W, SUF) | Fault-injection benchmark (Table 4, Fig. 6), all sensitivity runs |
-| 8 | `chronic.py`, `figs3.py` | Long-term peer ratio (Fig. 8), case studies (Fig. 7) |
+| 6 | `unsup.py`, `regimes.py`, `reg2.py` | Regimes (Fig. 5), silhouette in fingerprint space, dip test, gap statistic, seasonal-null synchrony |
+| 7 | `anomaly4.py` (env: R, NREP, LOO, ZX, KMIN, EPS, DAMP, W, CALW, SUF) | Fault-injection benchmark (Table 4, Fig. 7), all sensitivity runs |
+| 8 | `chronic.py`, `figs3.py` | Long-term peer ratio (Fig. 9), case studies (Fig. 8) |
