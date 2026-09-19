@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Reproduction code: Monitoring a distributed photovoltaic fleet without weather data"
+authors:
+  - family-names: Ali
+    given-names: Hafiz Atif
+    orcid: "https://orcid.org/0009-0001-4366-729X"
+license: MIT
+repository-code: "https://github.com/HMATorg/pv-fleet-monitoring-without-weather-data"
